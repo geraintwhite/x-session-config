@@ -109,12 +109,12 @@ myFloatHook = composeAll
 
 	role = stringProperty "WM_WINDOW_ROLE"
 
-myStatusBar = "xmobar ~/.xmonad/xmobar2.hs" --define first xmobar
+myStatusBar = "xmobar ~/.xmonad/xmobar-right.hs" --define xmobar on right monitor
 
 myStartupHook :: X ()
 myStartupHook = do
 	spawn "gnome-settings-daemon"
-	spawn "xmobar ~/.xmonad/xmobar.hs" --start second xmobar
+	spawn "xmobar ~/.xmonad/xmobar-left.hs" --start xmobar on left monitor
 	spawn "trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 10 --transparent true --tint 0x000000 --height 16"
 
 defaults = defaultConfig { workspaces = myWorkspaces

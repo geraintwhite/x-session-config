@@ -6,7 +6,7 @@ Config { font = "Monospace-8"
 		, Run Com "uname" ["-s","-r"] "" 36000
 		, Run Date "%a %b %_d %Y %H:%M:%S" "date" 10
 		, Run Com "ruby" ["~/.xmonad/gmail_checker.rb"] "gmail" 600
-		, Run Com "~/.xmonad/volume" [] "volume" 10
+		, Run Com "~/.xmonad/volume.sh" [] "volume" 10
 		, Run StdinReader
 		]
 	, sepChar = "%"

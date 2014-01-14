@@ -3,7 +3,7 @@ Custom X Session
 
 Based on the tiling window manager xmonad, this X session config is designed to give the maximum productivity and limit the need to use a mouse.
 
-Packages used:
+**Packages used:**
 - xmonad
 - xmobar
 - menu
@@ -11,7 +11,7 @@ Packages used:
 - urxvt
 - scrot
 
-Features:
+**Features:**
 - xmonad tiling window manager
 - xmobar setup for dual 1920x1080 monitors
 - trayer system tray
@@ -19,7 +19,7 @@ Features:
 - custom urxvt theme with clipboard
 - custom scrot screenshot script
 
-Installation:
+**Installation:**
 
 ```
 mkdir ~/.xmonad
@@ -27,7 +27,7 @@ cd ~/.xmonad
 sh install.sh
 ```
 
-Configuration:
+**Configuration:**
 
 All configuration files needed are within ~/.xmonad and are symlinked to appropriate locations.
 

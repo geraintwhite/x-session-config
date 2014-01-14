@@ -36,3 +36,6 @@ All configuration files needed are within ~/.xmonad and are symlinked to appropr
 - xresources contains the urxvt theme
 - xsession contains startup programs applications and scripts
 - gmail_checker.rb contains your gmail credentials
+
+
+This X session config was used on Ubuntu 13.04
